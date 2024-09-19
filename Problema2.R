@@ -4,6 +4,6 @@ ls()
 rm(list=ls())
 
 data = mtcars
-data
 
 pie(table(data$cyl))
+
