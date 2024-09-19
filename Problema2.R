@@ -6,4 +6,4 @@ rm(list=ls())
 data = mtcars
 data
 
-hist(data$mpg)
+pie(table(data$cyl))
